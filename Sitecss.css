@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+
+/* Estrutura da pagina*/
+
+body {
+font-family: "Arial Rounded MT Bold";
+
+}
+
+.back {
+background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250, 0.925)), to(rgb(7, 146, 238)))fixed;
+background-size:cover;
+background-position: center;
+min-height: 875px;
+padding: 0;
+margin: -10px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.next {
+    margin-top: 60px;
+}
+
+.next2 {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 200px;
+}
+
+.back h1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.back p{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -10px
+}
+
+.logo {
+max-height: 90px;
+width: auto;
+position: relative;
+top: 40px;
+right: 15px;
+}
+
+/*Link tree*/
+
+.icons {
+    max-height: 49px;
+    width: auto;
+
+}
+
+.linktree {
+    display: block;
+    padding: 10px;
+    max-block-size: 100px;
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 45px;
+    border-radius: 20px;   
+    background-position: relative;
+    border: 2.5px solid white;
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+    position: relative;
+    top: 50px;
+    margin-top: -30px;
+    
+}
+
+.whats{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(101, 189, 90)), to(rgb(32, 92, 37)))fixed;
+}
+
+.insta{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(170, 95, 95)), to(rgba(141, 34, 145, 0.938)))fixed;
+}
+
+.app{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(67, 91, 143)), to(rgb(4, 0, 255)))fixed;
+}
+
+.maps{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(126, 126, 56)), to(rgb(77, 72, 14)))fixed;
+}
+
+
+
+
+.develop p{
+    top: 30px
+}
+
+webkit
