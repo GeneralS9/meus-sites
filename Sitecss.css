@@ -6,7 +6,7 @@
 body {
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
-margin:5;
+margin:25;
 overflow:scroll ;
 overflow-x: hidden;
 scrollbar-width: thin;
@@ -31,7 +31,7 @@ background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250
 background-size:cover;
 background-position: center;
 min-height: 1000px;
-width: 100%;
+width: 102%;
 padding: 0;
 margin: -10px;
 text-align: center;
@@ -109,17 +109,17 @@ right: 15px;
 
 .linktree h3{
     position: relative;
-    margin-left: 28%;
-    margin-right: 50%;
+    margin-left: 81px;
+    
 }
 
 .linktree h2{
-    margin-left: 84px;
+    margin-left: 81px;
     font-size: 20px;
 }
 
 .linktree h4{
-    margin-left: 85px;
+    margin-left: 87px;
     font-size: 20px;
 
 }
