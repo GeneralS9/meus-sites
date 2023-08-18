@@ -12,7 +12,7 @@ font-family: "Arial Rounded MT Bold";
 background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250, 0.925)), to(rgb(7, 146, 238)))fixed;
 background-size:cover;
 background-position: center;
-min-height: 2000px;
+min-height: 1000px;
 padding: 0;
 margin: -10px;
 text-align: center;
@@ -88,12 +88,12 @@ right: 15px;
 
 .linktree h3{
     position: relative;
-    margin-left: 30%;
+    margin-left: 28%;
     margin-right: 50%;
 }
 
 .linktree h2{
-    margin-left: 87px;
+    margin-left: 84px;
     font-size: 20px;
 }
 
@@ -103,6 +103,11 @@ right: 15px;
 
 }
 
+.linktree h1{
+    margin-left: 83px;
+    font-size: 20px;
+
+}
 
 
 .whats{
