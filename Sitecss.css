@@ -31,7 +31,7 @@ background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250
 background-size:cover;
 background-position: center;
 min-height: 1000px;
-width: max-content;
+width: 110%;
 padding: 0;
 margin: -10px;
 text-align: center;
