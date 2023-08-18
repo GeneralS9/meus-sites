@@ -6,6 +6,7 @@
 body {
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
+margin: 0;
 
 }
 
@@ -14,6 +15,7 @@ background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250
 background-size:cover;
 background-position: center;
 min-height: 1000px;
+width: 100%;
 padding: 0;
 margin: -10px;
 text-align: center;
