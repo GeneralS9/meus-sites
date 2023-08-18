@@ -30,7 +30,9 @@ background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250
 background-size:cover;
 background-position: center;
 min-height: 1000px;
-width: 110%;
+width: 105%;
+max-width:105%;
+margin:-1;
 padding: 0;
 text-align: center;
 display: flex;
