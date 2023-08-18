@@ -86,6 +86,25 @@ right: 15px;
     
 }
 
+.linktree h3{
+    position: relative;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+.linktree h2{
+    margin-left: 87px;
+    font-size: 20px;
+}
+
+.linktree h4{
+    margin-left: 85px;
+    font-size: 20px;
+
+}
+
+
+
 .whats{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(101, 189, 90)), to(rgb(32, 92, 37)))fixed;
 }
