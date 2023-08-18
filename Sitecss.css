@@ -6,7 +6,6 @@
 body {
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
-margin:25;
 overflow:scroll ;
 overflow-x: hidden;
 scrollbar-width: thin;
@@ -33,7 +32,6 @@ background-position: center;
 min-height: 1000px;
 width: 110%;
 padding: 0;
-margin: -10px;
 text-align: center;
 display: flex;
 flex-direction: column;
