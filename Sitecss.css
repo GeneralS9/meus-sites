@@ -6,6 +6,7 @@
 body {
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
+margin:0;
 overflow:scroll ;
 overflow-x: hidden;
 scrollbar-width: thin;
@@ -30,9 +31,7 @@ background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250
 background-size:cover;
 background-position: center;
 min-height: 1000px;
-width: 105%;
-max-width:105%;
-margin:-1;
+width: 100%;
 padding: 0;
 text-align: center;
 display: flex;
