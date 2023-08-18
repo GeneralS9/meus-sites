@@ -7,8 +7,24 @@ body {
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
 margin: 0;
-
+overflow:scroll ;
+overflow-x: hidden;
+scrollbar-width: thin;
+scrollbar-color: (rgb(7, 146, 238));
 }
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(7, 146, 238);
+}
+
+body::-webkit-scrollbar-track {
+    background-color:rgb(7, 146, 238);
+}
+
 
 .back {
 background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250, 0.925)), to(rgb(7, 146, 238)))fixed;
@@ -23,6 +39,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+
+/* Estrutura da pagina*/
 
 .next {
     margin-top: 60px;
