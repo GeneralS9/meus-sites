@@ -103,26 +103,26 @@ right: 15px;
     position: relative;
     top: 50px;
     margin-top: -30px;
-    
 }
-
-.linktree h3{
-    position: relative;
-    margin-left: 81px;
     
-}
-
 .linktree h2{
     margin-left: 78px;
     font-size: 20px;
 }
 
 .linktree h4{
-    margin-left: 95px;
+    margin-left: 74px;
     font-size: 20px;
 
 }
 
+
+.linktree h3{
+    position: relative;
+    margin-left: 87px;
+    
+}
+    
 .linktree h1{
     margin-left: 83px;
     font-size: 20px;
