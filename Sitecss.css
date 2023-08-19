@@ -48,8 +48,15 @@ align-items: center;
 
 .next2 {
     position: relative;
+    margin-top: 2px;
+    margin-bottom: 60px;
+}
+
+.next3 {
+    position: relative;
     margin-top: 5px;
-    margin-bottom: 200px;
+    font-size: 20px;
+    margin-bottom: 60px;
 }
 
 .back h1 {
@@ -94,7 +101,7 @@ right: 15px;
     
     
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
     
 
@@ -107,12 +114,12 @@ right: 15px;
 }
     
 .linktree h2{
-    margin-left: 78px;
+    margin-left: 77px;
     font-size: 20px;
 }
 
 .linktree h4{
-    margin-left: 75px;
+    margin-left: 78px;
     font-size: 20px;
 
 }
@@ -120,12 +127,12 @@ right: 15px;
 
 .linktree h3{
     position: relative;
-    margin-left: 96px;
+    margin-left: 100px;
     
 }
     
 .linktree h5{
-    margin-left: 95px;
+    margin-left: 98px;
     font-size: 20px;
 
 }
@@ -145,6 +152,10 @@ right: 15px;
 
 .maps{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(126, 126, 56)), to(rgb(77, 72, 14)))fixed;
+}
+
+.gmail{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(185, 61, 61)), to(rgb(100, 9, 9)))fixed;
 }
 
 
