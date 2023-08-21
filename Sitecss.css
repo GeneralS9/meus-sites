@@ -4,7 +4,6 @@
 /* Estrutura da pagina*/
 
 body {
-background-attachment:fixed;
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
 margin:0;
@@ -29,6 +28,8 @@ body::-webkit-scrollbar-track {
 
 
 .back {
+background-attachment:fixed;
+background:fixed;
 background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250, 0.925)), to(rgb(7, 146, 238)))fixed;
 background-size:cover;
 background-position: center;
