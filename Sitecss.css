@@ -6,7 +6,7 @@
 body {
 height:100vh;
 font-family: "Arial Rounded MT Bold";
-overflow-x: hidden;
+overflow-x: scroll;
 margin:0;
 overflow:hidden ;
 scrollbar-width: thin;
