@@ -4,6 +4,7 @@
 /* Estrutura da pagina*/
 
 body {
+background-attachment:fixed;
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
 margin:0;
