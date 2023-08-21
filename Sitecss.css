@@ -8,8 +8,7 @@ height:100vh;
 font-family: "Arial Rounded MT Bold";
 overflow-x: hidden;
 margin:0;
-overflow:scroll ;
-overflow-x: hidden;
+overflow:hidden ;
 scrollbar-width: thin;
 scrollbar-color: (rgb(7, 146, 238));
 background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250, 0.925)), to(rgb(7, 146, 238)))fixed;
@@ -29,7 +28,6 @@ body::-webkit-scrollbar-track {
 
 
 .back {
-height:100vh;
 background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250, 0.925)), to(rgb(7, 146, 238)))fixed;
 background-size:cover;
 background-position: center;
