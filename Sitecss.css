@@ -11,7 +11,6 @@ height:100vh;
 font-family: "Arial Rounded MT Bold";
 overflow-x: scroll;
 margin:0;
-overflow:hidden ;
 scrollbar-width: thin;
 scrollbar-color: (rgb(7, 146, 238));
 background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 49, 250, 0.925)), to(rgb(7, 146, 238)))fixed;
