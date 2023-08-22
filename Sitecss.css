@@ -9,7 +9,7 @@
 body {
 height:100vh;
 font-family: "Arial Rounded MT Bold";
-overflow-x: scroll;
+overflow-x: hidden;
 margin:0;
 overflow:scroll;
 scrollbar-width: thin;
