@@ -88,7 +88,8 @@ right: 15px;
 .icons {
     max-height: 49px;
     width: auto;
-
+    position: relative;
+    left: -150px;
 }
 
 .linktree {
@@ -99,45 +100,19 @@ right: 15px;
     max-width: 350px;
     max-height: 45px;
     border-radius: 20px;   
-    background-position: relative;
     border: 2.5px solid white;
-    
-    
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    
 
     text-decoration: none;
     color: white;
-    font-size:18px;
     position: relative;
     top: 50px;
     margin-top: -30px;
 }
     
 .linktree h2{
-    margin-left: 77px;
-    font-size: 20px;
-}
-
-.linktree h4{
-    margin-left: 78px;
-    font-size: 20px;
-
-}
-
-
-.linktree h3{
     position: relative;
-    margin-left: 100px;
-    
-}
-    
-.linktree h5{
-    margin-left: 98px;
-    font-size: 20px;
-
+    font-size: 22px;
+    bottom: 62px;
 }
 
 
@@ -161,11 +136,16 @@ right: 15px;
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(185, 61, 61)), to(rgb(100, 9, 9)))fixed;
 }
 
+.mylogo{
+    max-height: 30px;
+    width: auto;
+    
 
-
-
-.develop p{
-    top: 30px
 }
 
-webkit
+.develop p{
+    top: 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
