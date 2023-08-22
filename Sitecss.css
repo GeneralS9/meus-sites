@@ -3,6 +3,9 @@
 
 /* Estrutura da pagina*/
 
+
+html { background-color: rgb(7, 146, 238)}
+
 body {
 height:100vh;
 font-family: "Arial Rounded MT Bold";
