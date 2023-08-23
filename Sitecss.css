@@ -63,7 +63,7 @@ align-items: center;
 }
 
 .back h1 {
-    font-family: sans-serif;
+    font-family: "Arial Rounded MT Bold";
     font-size: 20px;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -116,6 +116,14 @@ right: 15px;
     bottom: 62px;
 }
 
+.back h3{
+    margin-top: 30px;
+    margin-bottom: -10px;
+    color: white;
+    font-family: "Arial Rounded MT Bold";
+
+}
+
 
 .whats{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(101, 189, 90)), to(rgb(32, 92, 37)))fixed;
@@ -135,6 +143,11 @@ right: 15px;
 
 .gmail{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(185, 61, 61)), to(rgb(100, 9, 9)))fixed;
+}
+
+.numeros{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(221, 144, 0)), to(orange))fixed;
+    color: black;
 }
 
 .mylogo{
