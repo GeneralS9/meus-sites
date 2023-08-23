@@ -125,7 +125,30 @@ right: 15px;
 }
 
 
+.whats{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(101, 189, 90)), to(rgb(32, 92, 37)))fixed;
+}
 
+.insta{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(170, 95, 95)), to(rgba(141, 34, 145, 0.938)))fixed;
+}
+
+.app{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(67, 91, 143)), to(rgb(4, 0, 255)))fixed;
+}
+
+.maps{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(126, 126, 56)), to(rgb(77, 72, 14)))fixed;
+}
+
+.gmail{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(185, 61, 61)), to(rgb(100, 9, 9)))fixed;
+}
+
+.numeros{
+    background: -webkit-gradient(linear, left bottom, left top, from(rgb(221, 144, 0)), to(orange))fixed;
+    color: black;
+}
 
 .mylogo{
     max-height: 30px;
