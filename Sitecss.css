@@ -98,51 +98,64 @@ right: 15px;
     min-width: 350px;
     max-width: 350px;
     max-height: 45px;
-    border-radius: 20px;   
-    border: 2.5px solid white;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 1px black;   
+    
 
     text-decoration: none;
     color: white;
     position: relative;
-    top: 50px;
-    margin-top: -30px;
+    margin-bottom: 20px;
+    
+    
 }
     
 .linktree h2{
     position: relative;
     font-size: 22px;
-    bottom: 74px;
     font-family: 'Roboto', sans-serif;
+    margin-top: -55px;
 }
 
 
 .back h3{
-    margin-top: 30px;
-    margin-bottom: -10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
+
+}
+
+header li{
+    display: flex;
+    flex-direction: column;
 
 }
 
 
 .whats{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(101, 189, 90)), to(rgb(32, 92, 37)))fixed;
+    animation: direita 2s;
 }
 
 .insta{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(170, 95, 95)), to(rgba(141, 34, 145, 0.938)))fixed;
+    animation: esquerda 2s;
 }
 
 .app{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(67, 91, 143)), to(rgb(4, 0, 255)))fixed;
+    animation: direita 2s;
 }
 
 .maps{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(126, 126, 56)), to(rgb(77, 72, 14)))fixed;
+    animation: esquerda 2s;
 }
 
 .gmail{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(185, 61, 61)), to(rgb(100, 9, 9)))fixed;
+    animation: direita 2s;
 }
 
 .numeros{
@@ -165,3 +178,33 @@ right: 15px;
     flex-direction: row;
     align-items: center;
 }
+
+@keyframes direita {
+    0% {
+        transform: translateX(170px)
+    }
+    50% {
+        transform: translateX(170px)
+    }
+    85% {
+        transform: translateX(-40px);
+    }
+    100% {
+        transform: translateX(0px)
+    }
+ }
+
+ @keyframes esquerda {
+    0% {
+        transform: translateX(-170px)
+    }
+    50% {
+        transform: translateX(-170px)
+    }
+    85% {
+        transform: translateX(40px);
+    }
+    100% {
+        transform: translateX(0px)
+    }
+ }
