@@ -181,13 +181,10 @@ header li{
 
 @keyframes direita {
     0% {
-        transform: translateX(170px)
+        transform: translateX(500px)
     }
     50% {
-        transform: translateX(170px)
-    }
-    85% {
-        transform: translateX(-40px);
+        transform: translateX(500px)
     }
     100% {
         transform: translateX(0px)
@@ -196,14 +193,16 @@ header li{
 
  @keyframes esquerda {
     0% {
-        transform: translateX(-170px)
-    }
-    50% {
-        transform: translateX(-170px)
+        transform: translateX(-500px)
     }
     85% {
         transform: translateX(40px);
     }
+    100% {
+        transform: translateX(0px)
+    }
+ }
+
     100% {
         transform: translateX(0px)
     }
