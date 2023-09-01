@@ -135,7 +135,7 @@ header li{
 
 .whats{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(101, 189, 90)), to(rgb(32, 92, 37)))fixed;
-    animation: direita 2s;
+    animation: direita 1.8s;
 }
 
 .insta{
@@ -145,7 +145,7 @@ header li{
 
 .app{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(67, 91, 143)), to(rgb(4, 0, 255)))fixed;
-    animation: direita 2s;
+    animation: direita 1.8s;
 }
 
 .maps{
@@ -155,7 +155,7 @@ header li{
 
 .gmail{
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(185, 61, 61)), to(rgb(100, 9, 9)))fixed;
-    animation: direita 2s;
+    animation: direita 1.8s;
 }
 
 .numeros{
@@ -181,29 +181,26 @@ header li{
 
 @keyframes direita {
     0% {
-        transform: translateX(500px)
-    }
-    50% {
-        transform: translateX(500px)
+        transform: translateX(500px);
+        opacity: 0;
     }
     100% {
-        transform: translateX(0px)
+        transform: translateX(0px);
+        opacity: 0.8;
     }
  }
 
  @keyframes esquerda {
     0% {
-        transform: translateX(-500px)
+        transform: translateX(-500px);
+        opacity: 0;
     }
     85% {
         transform: translateX(40px);
     }
     100% {
-        transform: translateX(0px)
+        transform: translateX(0px);
+        opacity: 2.5;
     }
  }
 
-    100% {
-        transform: translateX(0px)
-    }
- }
