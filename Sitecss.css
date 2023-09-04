@@ -3,6 +3,21 @@
 /* Estrutura da pagina*/
 
 
+@media screen and (orientation: landscape) {
+  /* Aplicar rotação contrária */
+  body {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow-x: hidden;
+    position: fixed;
+    top: 100%;
+    left: 0;
+  }
+}
+
+
 
 
 body {
