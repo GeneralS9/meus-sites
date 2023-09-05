@@ -11,6 +11,7 @@ height:100vh;
 font-family: 'Concert One', cursive;
 margin:0;
 overflow-x:hidden;
+overflow-y:visible;
 scrollbar-width: thin;
 scrollbar-color: (rgb(7, 146, 238));
 background: rgb(7, 146, 238);
