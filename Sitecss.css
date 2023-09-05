@@ -40,6 +40,9 @@ align-items: center;
 
 /* Estrutura da pagina*/
 
+header {
+overflow-x: hidden;
+}
 .next {
     margin-top: 60px;
 }
