@@ -4,7 +4,7 @@
 
 html{
 overflow-x:hidden;
-overflow-y:visible;
+overflow-y:scroll;
 }
 
 body {
@@ -12,7 +12,7 @@ height:100vh;
 font-family: 'Concert One', cursive;
 margin:0;
 overflow-x:hidden;
-overflow-y:visible;
+overflow-y:scroll;
 scrollbar-width: thin;
 scrollbar-color: (rgb(7, 146, 238));
 background: rgb(7, 146, 238);
