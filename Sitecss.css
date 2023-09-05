@@ -135,32 +135,32 @@ header li{
 
 
 .whats{
-    background: -webkit-gradient(linear, left bottom, left top, from(rgb(101, 189, 90)), to(rgb(32, 92, 37)))fixed;
+    background: rgb(32, 92, 37);
     animation: direita 1.8s;
 }
 
 .insta{
-    background: -webkit-gradient(linear, left bottom, left top, from(rgb(170, 95, 95)), to(rgba(141, 34, 145, 0.938)))fixed;
+    background: rgba(141, 34, 145, 0.938);
     animation: esquerda 2s;
 }
 
 .app{
-    background: -webkit-gradient(linear, left bottom, left top, from(rgb(67, 91, 143)), to(rgb(4, 0, 255)))fixed;
+    background: rgb(4, 0, 255);
     animation: direita 1.8s;
 }
 
 .maps{
-    background: -webkit-gradient(linear, left bottom, left top, from(rgb(126, 126, 56)), to(rgb(77, 72, 14)))fixed;
+    background: rgb(77, 72, 14);
     animation: esquerda 2s;
 }
 
 .gmail{
-    background: -webkit-gradient(linear, left bottom, left top, from(rgb(185, 61, 61)), to(rgb(100, 9, 9)))fixed;
+    background: rgb(100, 9, 9);
     animation: direita 1.8s;
 }
 
 .numeros{
-    background: -webkit-gradient(linear, left bottom, left top, from(rgb(221, 144, 0)), to(orange))fixed;
+    background: orange;
     color: black;
 }
 
