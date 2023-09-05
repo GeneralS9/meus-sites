@@ -2,6 +2,10 @@
 
 /* Estrutura da pagina*/
 
+html{
+    overflow-y:visible;
+}
+
 body {
 height:100vh;
 overflow-x: hidden;
@@ -27,7 +31,7 @@ body::-webkit-scrollbar-track {
 
 
 .back {
-overflow-y: scroll;
+overflow-y: visible;
 overflow-x: hidden;
 background: rgb(7, 146, 238);
 background-size:cover;
