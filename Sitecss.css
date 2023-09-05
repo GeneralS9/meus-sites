@@ -134,28 +134,29 @@ header li{
 }
 
 
+
 .whats{
-    background: rgb(32, 92, 37);
+    background: rgb(38, 139, 47);
     animation: direita 1.8s;
 }
 
 .insta{
-    background: rgba(141, 34, 145, 0.938);
+    background: rgba(199, 42, 204, 0.938);
     animation: esquerda 2s;
 }
 
 .app{
-    background: rgb(4, 0, 255);
+    background: rgb(0, 0, 0);
     animation: direita 1.8s;
 }
 
 .maps{
-    background: rgb(77, 72, 14);
+    background: rgb(161, 153, 66);
     animation: esquerda 2s;
 }
 
 .gmail{
-    background: rgb(100, 9, 9);
+    background: rgb(206, 26, 26);
     animation: direita 1.8s;
 }
 
