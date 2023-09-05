@@ -5,6 +5,7 @@
 body {
 height:100vh;
 overflow-x: hidden;
+overflow-y: visible;
 font-family: 'Concert One', cursive;
 margin:0;
 scrollbar-width: thin;
