@@ -2,10 +2,15 @@
 
 /* Estrutura da pagina*/
 
+html{
+overflow-x:hidden;
+}
+
 body {
 height:100vh;
 font-family: 'Concert One', cursive;
 margin:0;
+overflow-x:hidden;
 scrollbar-width: thin;
 scrollbar-color: (rgb(7, 146, 238));
 background: rgb(7, 146, 238);
@@ -21,11 +26,6 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background-color:rgb(7, 146, 238);
-}
-
-header{
-    overflow-y: scroll;
-    overflow-x: hidden;
 }
 
 .back {
