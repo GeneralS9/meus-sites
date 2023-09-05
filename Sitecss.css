@@ -3,11 +3,13 @@
 /* Estrutura da pagina*/
 html {
 overflow-x: hidden;
+overflow-y: scroll;
 }
 
 body {
 height:100vh;
 overflow-x: auto;
+overflow-y:scroll;
 font-family: 'Concert One', cursive;
 margin:0;
 scrollbar-width: thin;
