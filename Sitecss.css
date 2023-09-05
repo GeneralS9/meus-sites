@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Bree+Serif&family=Concert+One&family=Kanit:wght@200;400&family=Roboto:wght@100;300;500&display=swap');
 
 /* Estrutura da pagina*/
-html{
-  overflow-x:hidden;
-}
+
 body {
 height:100vh;
 font-family: 'Concert One', cursive;
