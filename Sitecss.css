@@ -88,16 +88,13 @@ right: 15px;
     max-height: 49px;
     width: auto;
     position: relative;
-    left: -150px;
+    left: max(-450px,-40vw);
     bottom:2px;
 }
 
 .linktree {
-    display: block;
     padding: 10px;
-    max-block-size: 100px;
-    min-width: 350px;
-    max-width: 350px;
+    width: min(1000px,90vw);
     max-height: 45px;
     border-radius: 20px;
     box-shadow: 0 2px 10px 1px black;   
